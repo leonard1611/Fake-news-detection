@@ -1,7 +1,7 @@
 # Détection de Fake News avec BERT
 
 ## Introduction
-This project develops a BERT-based neural network to classify political statements as true or false using the LIAR2 dataset. By integrating textual analysis with multimodal metadata (context, speaker history, and credibility scores), the model achieves an 85% accuracy, significantly outperforming baseline text-only approaches.
+Ce projet développe un réseau de neurones basé sur BERT pour classifier la véracité d'annonces politiques sur le dataset LIAR2. En fusionnant l'analyse textuelle et les métadonnées (contexte, historique de crédibilité des locuteurs), le modèle atteint 85 % d'accuracy en classification binaire, surpassant les approches textuelles seules.
 
 ## 1. Présentation du modèle
 
@@ -162,7 +162,7 @@ Après quelques epochs, les poids de BERT sont dégelés afin de permettre un aj
 # 6. Résultats et Limites de l'approche
 
 
-J'ai obtenue un résultat de 85,63 pourcents de validation accuracy. Cela est est donc une nette amélioration comparé aux techniques tel que la SVM (validation accuracy ~ 30%) ou même un réseau de neuronne qui n'utilise pas les métadonnées et la crédibilité (validation accuracy ~ 70%).
+J'ai obtenue un résultat de 85,67 pourcents de validation accuracy. Cela est est donc une nette amélioration comparé aux techniques tel que la SVM (validation accuracy ~ 30%) ou même un réseau de neuronne qui n'utilise pas les métadonnées et la crédibilité (validation accuracy ~ 70%).
 
 Bien que l'intégration des métadonnées et de la crédibilité du speaker améliore significativement les performances du modèle, cette approche présente certaines limites.
 
