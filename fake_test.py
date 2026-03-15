@@ -64,9 +64,9 @@ output_tags = ["Pants on fire","False","Barely-true","Half-true","Mostly-true","
 Les données sont téléchargées en fichier 'csv' et lus avec pandas.
 """
 
-df_train = pd.read_csv('train.csv')
-df_val = pd.read_csv('valid.csv')
-df_test = pd.read_csv('test.csv')
+df_train = pd.read_csv('LIAR2/train.csv')
+df_val = pd.read_csv('LIAR2/valid.csv')
+df_test = pd.read_csv('LIAR2/test.csv')
 
 """Ajout de la crédibilité suivant l'auteur
 
@@ -519,7 +519,7 @@ optimizer = torch.optim.AdamW([
     {"params": model.meta_embeddings.parameters(), "lr": 1e-3}
 ])
 
-epochs = 20
+epochs = 1
 
 
 patience = 5
