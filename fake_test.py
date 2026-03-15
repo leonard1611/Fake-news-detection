@@ -519,7 +519,7 @@ optimizer = torch.optim.AdamW([
     {"params": model.meta_embeddings.parameters(), "lr": 1e-3}
 ])
 
-epochs = 1
+epochs = 20
 
 
 patience = 5
