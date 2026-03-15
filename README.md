@@ -3,7 +3,7 @@
 ## Introduction
 Ce projet développe un réseau de neurones basé sur BERT pour classifier la véracité d'annonces politiques sur le dataset LIAR2. En fusionnant l'analyse textuelle et les métadonnées (contexte, historique de crédibilité des locuteurs), le modèle atteint 85 % d'accuracy en classification binaire, surpassant les approches textuelles seules.
 
-## 1. Présentation du modèle
+# 1. Présentation du modèle
 
 Afin d'améliorer les performances obtenues avec les approches classiques basées sur des représentations de type *bag-of-words* (TF-IDF), nous utilisons un modèle basé sur **BERT (Bidirectional Encoder Representations from Transformers)**.
 
